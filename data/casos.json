@@ -1,0 +1,19 @@
+[
+  {"ID":"CP01","Caso de Prueba":"Registrar expediente correctamente","Criterio de aprobado":"Carga manual, registro exitoso y expediente visible luego de guardarlo."},
+  {"ID":"CP02","Caso de Prueba":"Registrar expediente sin número de causa","Criterio de aprobado":"El sistema indica que falta el número y no registra el expediente."},
+  {"ID":"CP03","Caso de Prueba":"Registrar expediente sin carátula","Criterio de aprobado":"El sistema indica que falta la carátula y no registra el expediente."},
+  {"ID":"CP09","Caso de Prueba":"Registrar número de causa con caracteres especiales inválidos","Criterio de aprobado":"El sistema muestra una validación de formato/caracteres y no registra el expediente."},
+  {"ID":"CP10","Caso de Prueba":"Registrar número de causa con formato incorrecto","Criterio de aprobado":"El sistema muestra una validación de formato y no registra el expediente."},
+  {"ID":"CP13","Caso de Prueba":"Registrar expediente con número de causa duplicado","Criterio de aprobado":"El expediente duplicado no se registra; queda una sola coincidencia para ese número."},
+  {"ID":"CP17","Caso de Prueba":"Realizar pase a un responsable válido","Criterio de aprobado":"El pase se registra y el responsable actual pasa a ser el destino elegido."},
+  {"ID":"CP18","Caso de Prueba":"Realizar pase sin seleccionar responsable","Criterio de aprobado":"El sistema impide el pase y no cambia responsable ni historial."},
+  {"ID":"CP27","Caso de Prueba":"Crear borrador en expediente asignado","Criterio de aprobado":"El borrador se guarda con su contenido y aparece asociado al expediente asignado."},
+  {"ID":"CP28","Caso de Prueba":"Crear borrador sin expediente seleccionado","Criterio de aprobado":"Desde la lista sin abrir una causa, la opción/formulario de creación contextual no está disponible."},
+  {"ID":"CP31","Caso de Prueba":"Continuar edición de borrador existente","Criterio de aprobado":"El borrador permite editar y conserva los cambios al volver a abrirlo."},
+  {"ID":"CP35","Caso de Prueba":"Generar nueva versión de un documento","Criterio de aprobado":"La edición crea una versión adicional y conserva el nuevo contenido."},
+  {"ID":"CP36","Caso de Prueba":"Conservar versión original luego de una modificación","Criterio de aprobado":"Después de varias ediciones, las entradas/versiones anteriores permanecen sin cambios."},
+  {"ID":"CP38","Caso de Prueba":"Mostrar contenido modificado entre dos versiones","Criterio de aprobado":"La comparación permite ver el contenido original y el contenido modificado."},
+  {"ID":"CP42","Caso de Prueba":"Buscar expediente por número de causa existente","Criterio de aprobado":"La búsqueda devuelve exactamente el expediente registrado con ese número."},
+  {"ID":"CP43","Caso de Prueba":"Buscar expediente por número inexistente","Criterio de aprobado":"La búsqueda no devuelve expedientes."},
+  {"ID":"CP47","Caso de Prueba":"Buscar combinando número y parte","Criterio de aprobado":"La combinación de ambos filtros devuelve exactamente la coincidencia esperada."}
+]
